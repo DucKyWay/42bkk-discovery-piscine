@@ -3,13 +3,46 @@ html {
 }
 
 body {
-
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 .dropdown {
-
+    position: relative;
+    display: inline-block;
 }
 
-.dropdown-content li{
-    
+.dropdown-content {
+    display: none;
+    position: absolute;
+    padding: 0;
+}
+
+.dropdown-content ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.dropdown-content li {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    background-color: #cccccc;
+}
+
+.dropdown-content li:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.dropdown:hover span {
+    background-color: #cccccc;
+    border: 1px black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
