@@ -12,14 +12,14 @@ body {
 button {
     font-size: 2rem;
     background-color: #ffff00;
-    border: 5px black;
+    border: 1px solid black;
 }
 
 button:hover {
     cursor: pointer;
-    background-color: #cece38;
+    background: #cece38;
 }
 
 button:active {
-    background-color: #b7b73d;
+    background: #b7b73d;
 }
