@@ -15,18 +15,17 @@ body {
 
 .black-cover {
     background-color: black;
-    padding: 4vw 0;
+    padding: 6em;
 }
 
 .container .title {
     position: absolute;
-    font-size: 7vw;
-    font-weight: bold;
+    font-size: 32px;
 	color: white;
 }
 
 .title {
-    font-size: 7vw;
-    font-weight: bold;
+    font-size: 32px;
 	color: white;
+    margin: 2em;
 }
