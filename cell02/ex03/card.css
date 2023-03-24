@@ -1,6 +1,11 @@
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 200px;
+    height: 800px;
 }
 
 .card:hover {
@@ -12,11 +17,20 @@
 }
 
 .card-image {
-    width: 20%;
-    height: 20%;
+    width: 100%;
+}
+.card-image-border {
+    border-radius: 5px 5px 0 0;
 }
 
 .card-icon {
     width: 20px;
     height: 20px;
+}
+
+.btn {
+    padding: 0;
+    background-color: black;
+    text-align: center;
+    width: 100%;
 }
