@@ -20,12 +20,12 @@ body {
 
 .container .title {
     position: absolute;
-    font-size: 32px;
+    font-size: 16px;
 	color: white;
 }
 
 .title {
-    font-size: 32px;
+    font-size: 16px;
 	color: white;
     margin: 2em;
 }
