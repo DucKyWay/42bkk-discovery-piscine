@@ -6,16 +6,20 @@
 
 h1 {
     text-align: center;
+    padding: 16px;
 }
 
 h2 {
     text-align: center;
     padding: 15px;
 }
+
 p {
     color: darkgrey;
+    text-align: center;
     padding: 2px;
 }
+
 .container {
     display: flex;
 	justify-content: center;
@@ -40,6 +44,8 @@ p {
 .card-icon {
     width: 20px;
     height: 20px;
+    align-items: center;
+    align-content: center;
 }
 
 .btn {
