@@ -42,17 +42,20 @@ p {
 }
 
 .card-icon {
-    width: 20px;
-    height: 20px;
-    align-items: center;
-    align-content: center;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .btn {
     background-color: black;
     color: white;
     width: 100%;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     text-align: center;
     text-decoration: none;
     display: block;
