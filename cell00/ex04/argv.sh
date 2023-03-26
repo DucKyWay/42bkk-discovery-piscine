@@ -1,18 +1,21 @@
 #!/bin/bash
 
-if [ "$#" -eq "0" ]
+if [ $# -eq 0 ]
    then
 	echo "No arguments supplied"
 	exit 1
-else if [ "$#" <= "3" ]
-	for var in "$@"
+elif [ $# <= 3 ]
+	then
+	for var in $@
 	do
 		echo $var;
 	done
 else
-	for var in "$@"
+	for var in $@
 	do
-		if [ "$var" <= "3"]
-		echo $var;
+		if [ $var <= 3 ]
+		then
+			echo $var;
+		fi
 	done	
 fi
