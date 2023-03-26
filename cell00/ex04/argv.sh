@@ -11,13 +11,9 @@ then
 		echo $var;
 	done
 else
-	for var in $@ 
-	do	
-		if [ $var -eq 3 ] 
-		then
-			break
-		else
-			echo $var;
-		fi
-	done	
+	num_vars=3
+	for (( i=1; i<=$num_vars; i++ ))
+	do
+		echo ${!i}
+	done
 fi
