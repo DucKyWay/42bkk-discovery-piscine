@@ -1,10 +1,10 @@
-#!bin/bash
-
 if [ $# -eq 0 ]
 then
-    echo "No argument Supplied."
-    for var in $@
+	echo "No arguments supplied"
+	exit 1
+else
+    for folder_name in "$@"
     do
-        echo "touch ex"+i 
+    mkdir "ex${folder_name}"
     done
 fi
