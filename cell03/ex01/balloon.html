@@ -10,16 +10,40 @@
         body {
             height: 100%;
         }
-                                 
-        div {
-            height: 200px;
+                     
+        #balloon {
             width: 200px;
+            height: 200px;
+            border-radius: 50%;
             background-color: red;
-            border: 5px solid black;
+            border: 3px solid black;
+            cursor: pointer;
         }
+
+        #balloon:hover {
+            transform: scale(0.95);
+        }
+
+        #balloon.explode {
+            animation: explode 0.5s;
+        }
+
+        /* @keyframes explode {
+            from {
+                transform: scale(1);
+                background-color: red;
+            }
+            to {
+                transform: scale(2);
+                background-color: black;
+            }
+        } */
     </style>
 </head>
 <body>
-    <div>.</div>
+    <div id="balloon"></div>
+    <script>
+        let x = 0;
+    </script>
 </body>
 </html>
