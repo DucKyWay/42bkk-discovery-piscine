@@ -4,7 +4,7 @@
     <title>Calculator</title>
 </head>
 <body>
-    <input type="number" id="num1" min="0">
+    <input type="text" id="num1" min="0">
     <select name="operators" id="operators">
         <option value="plus" id="plus">+</option>
         <option value="minus" id="minus">-</option>
@@ -12,7 +12,7 @@
         <option value="divide" id="divide">/</option>
         <option value="modulus" id="modulus">%</option>
     </select>
-    <input type="number" id="num2" min="0">
+    <input type="text" id="num2" min="0">
     <input type="submit" id="cal" value="Try me!">
 
     <script>
@@ -28,7 +28,6 @@
 
             if (isNaN(val1) || isNaN(val2) || val1 < 0 || val2 < 0) {
                 alert("Error :(");
-                console.log("Error :(")
                 return;
             }
 
@@ -62,14 +61,14 @@
                 default:
                 alert("Error :(");
                 return;
-        }
+            }
 
-        alert(result);
+            alert(result);
             console.log(result);
         });
 
         setInterval(() => {
-            alert("Please, use me...");
+        alert("Please, use me...");
         }, 30000);
     </script>
 </body>
