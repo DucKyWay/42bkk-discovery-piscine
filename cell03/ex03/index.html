@@ -2,10 +2,25 @@
 <html>
 <head>
     <title>To Do</title>
+    <style>
+        .container {
+            padding: 50px;
+         }
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
 </head>
 <body onload="listCookie()">
-    <button onclick="appendlist()">New</button>
-    <div id="ft_list"></div>
+    <div class="container">
+        <div class="center">
+            <button id="new_button" onclick="appendlist()">New</button>
+        </div>
+        <div id="ft_list"></div>
+    </div>
+    <script src="todo.js"></script>
 </body>
-<script src="todo.js"></script>
 </html>
